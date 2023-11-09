@@ -48,7 +48,7 @@ export const Navbar = () => {
               smooth={true}
               spy={true}
               offset={-100}
-              to="home"
+              to="about"
               className="block text-primary hover:text-gray-400 py-2 px-4 cursor-pointer"
             >
               About
@@ -58,7 +58,7 @@ export const Navbar = () => {
               smooth={true}
               spy={true}
               offset={-100}
-              to="skills"
+              to="feedback"
               className="block hover:text-gray-400 py-2 px-4 cursor-pointer"
             >
               Feedback
@@ -68,7 +68,7 @@ export const Navbar = () => {
               smooth={true}
               spy={true}
               offset={-100}
-              to="about"
+              to="contact"
               className="block  hover:text-gray-400 py-2 px-4 cursor-pointer"
             >
               Contact
